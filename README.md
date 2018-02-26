@@ -72,3 +72,6 @@ The output will be in inscount.out
 	pin -t /pintools/source/tools/SimpleExamples/obj-intel64/imageload.so -- /bin/ls
 	cp imageload.out $APP
 	cp /pintools/source/tools/SimpleExamples/imageload.cpp $APP
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbODYzNjU1MzZdfQ==
+-->
