@@ -5,8 +5,10 @@
 
 <h1 id="pin-bootstrap-docker-container">PIN bootstrap docker container</h1>
 <h2 id="usage">Usage</h2>
-<p>Running the container with a mounted volume on current folder:</p>
-<pre><code>$ docker build -t pin github.com/moraispgsi/pin-bootstrap &amp;&amp; \
+<p># PIN bootstrap docker container
+
+## UsRunning the container with a mounted volume on current folder:</p>
+<pre><code>$ docker build -t pin github.com/moraispgsi/pin-bootstrap &amp;&amp;& \
 docker run --privileged --rm -it -v "$(pwd):/pintools/source/tools/MyNewPinTool" pin bash
 </code></pre>
 <p>Running a pin-tool:</p>
@@ -50,3 +52,6 @@ $ cp imageload.out $APP
 $ cp /pintools/source/tools/SimpleExamples/imageload.cpp $APP
 </code></pre>
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTM1MTA3NTExMF19
+-->
