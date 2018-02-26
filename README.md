@@ -52,6 +52,3 @@ $ cp imageload.out $APP
 $ cp /pintools/source/tools/SimpleExamples/imageload.cpp $APP
 </code></pre>
 
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTQ0MzE4NF19
--->
