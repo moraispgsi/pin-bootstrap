@@ -16,5 +16,5 @@ RUN make
 WORKDIR /pintools/source/tools
 RUN cp -R MyPinTool MyPinToolTeste
 WORKDIR /MyPinToolTeste
-RUN MAKE
+RUN make
 WORKDIR /usr/src/my-app
