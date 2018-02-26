@@ -3,13 +3,8 @@
 ## Usage
 Running the container with a mounted volume on current folder:
 ```
-$ docker build -t pin github.com/moraispgsi/pin-bootstrap && docker run --privileged --rm -it -v "$(pwd):/pintools/source/tools/MyNewPinTool" pin bash
-```
-
-
-Its recommended to use only the src folder
-```
-$ cd src
+$ docker build -t pin github.com/moraispgsi/pin-bootstrap && \
+docker run --privileged --rm -it -v "$(pwd):/pintools/source/tools/MyNewPinTool" pin bash
 ```
 
 Running a pin-tool:
@@ -73,5 +68,5 @@ The output will be in inscount.out
 	cp imageload.out $APP
 	cp /pintools/source/tools/SimpleExamples/imageload.cpp $APP
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODYzNjU1MzZdfQ==
+eyJoaXN0b3J5IjpbMjA2MTAwNjMzM119
 -->
