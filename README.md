@@ -63,7 +63,7 @@ $ cp /pintools/source/tools/SimpleExamples/edgcnt.cpp $APP
 ```
 $ pin -t /pintools/source/tools/ManualExamples/obj-intel64/proccount.so -- /bin/ls
 $ cp proccount.out $APP
-	cp /pintools/source/tools/ManualExamples/proccount.cpp $APP
+$ cp /pintools/source/tools/ManualExamples/proccount.cpp $APP
 ```
 	```
 	pin -t /pintools/source/tools/SimpleExamples/obj-intel64/imageload.so -- /bin/ls
@@ -71,5 +71,5 @@ $ cp proccount.out $APP
 	cp /pintools/source/tools/SimpleExamples/imageload.cpp $APP
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2MzQxMzUyM119
+eyJoaXN0b3J5IjpbMTE3MzY2OTU1MV19
 -->
