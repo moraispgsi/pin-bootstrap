@@ -12,14 +12,7 @@ Running a pin-tool:
 $ pin -t <tool-name> -- <program>
 ```
 
-Example:
-```
-$ pin -t inscount0.so -- /bin/ls
-```
-
-The output will be in inscount.out
-
-Run examples of pintools and copy their result and source code to the host directory
+Run sample pintools from Manual and copy their results and source code to the host mounted volume directory:
 
 ```
 $ pin -t /pintools/source/tools/ManualExamples/inscount0.so -- /bin/ls
@@ -67,5 +60,5 @@ $ cp imageload.out $APP
 $ cp /pintools/source/tools/SimpleExamples/imageload.cpp $APP
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzM3NTc0MTUxXX0=
+eyJoaXN0b3J5IjpbODYzMjM4MDYwXX0=
 -->
