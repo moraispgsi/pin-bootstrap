@@ -13,4 +13,8 @@ WORKDIR /pintools/source/tools/ManualExamples
 RUN make
 WORKDIR /pintools/source/tools/SimpleExamples
 RUN make
+WORKDIR /pintools/source/tools
+RUN cp -R MyPinTool MyPinToolTeste
+WORKDIR /MyPinToolTeste
+RUN MAKE
 WORKDIR /usr/src/my-app
