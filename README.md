@@ -43,7 +43,7 @@ Run examples of pintools and copy their result and source code to the host direc
 	cp opcodemix.out $APP
 	cp /pintools/source/tools/SimpleExamples/opcodemix.cpp $APP
 ```
-``
+```
 	pin -t /pintools/source/tools/SimpleExamples/obj-intel64/regmix.so -- /bin/ls
 	cp regmix.out $APP
 	cp /pintools/source/tools/SimpleExamples/regmix.cpp $APP
@@ -70,5 +70,5 @@ Run examples of pintools and copy their result and source code to the host direc
 	cp /pintools/source/tools/SimpleExamples/imageload.cpp $APP
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2MDM0MjI0NV19
+eyJoaXN0b3J5IjpbNTA0Njg3MTU3XX0=
 -->
