@@ -6,8 +6,8 @@ COPY pintools /pintools
 RUN echo "export PATH=$PATH:/pintools" >> ~/.profile
 RUN echo "export PATH=$PATH:/pintools" >> ~/.bashrc
 RUN echo "export LD_LIBRARY_PATH=/pintools/source/include/pin/pin" >> ~/.bashrc
-RUN apt-get install make
-RUN apt-get install g++
+RUN apt-get install make -y
+RUN apt-get install g++ -y
 WORKDIR /pintools/source/tools/ManualExamples
 RUN make
 WORKDIR /pintools/source/tools/SimpleExamples
