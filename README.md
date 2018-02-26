@@ -19,7 +19,7 @@ $ pin -t <tool-name> -- <program>
 
 Example:
 ```
-$ example: pin -t inscount0.so -- /bin/ls
+$ pin -t inscount0.so -- /bin/ls
 ```
 
 The output will be in inscount.out
