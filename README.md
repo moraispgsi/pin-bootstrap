@@ -11,3 +11,15 @@ Its recommended to use only the src folder
 ```
 $ cd src
 ```
+
+Running a pin-tool:
+```
+$ pin -t <tool-name> -- <program>
+```
+
+Example:
+```
+$ example: pin -t inscount0.so -- /bin/ls
+```
+
+The output will be in inscount.out
