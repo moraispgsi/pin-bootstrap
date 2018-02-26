@@ -13,8 +13,4 @@ WORKDIR /pintools/source/tools/ManualExamples
 RUN make
 WORKDIR /pintools/source/tools/SimpleExamples
 RUN make
-WORKDIR /pintools/source/tools
-RUN cp -R MyPinTool /MyPinToolTemplate
-WORKDIR /MyPinToolTemplate
-RUN make
-WORKDIR /usr/src/my-app
+WORKDIR /pintools/source/tools/MyNewPinTool
