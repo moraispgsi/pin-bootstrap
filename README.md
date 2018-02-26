@@ -25,7 +25,7 @@ $ pin -t inscount0.so -- /bin/ls
 The output will be in inscount.out
 
 
-# Run examples of pintools and copy their result and source code to the host directory
+## Run examples of pintools and copy their result and source code to the host directory
 
 
 	pin -t /pintools/source/tools/ManualExamples/inscount0.so -- /bin/ls
