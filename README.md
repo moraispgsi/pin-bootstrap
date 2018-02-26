@@ -1,6 +1,6 @@
-#Pin Environment
+# Pin Environment
 
-##Usage
+## Usage
 Running the container with a mounted volume on current folder:
 ```
 $ docker build -t pin github.com/moraispgsi/pin-bootstrap && docker run --rm -it -v "$(pwd):/usr/src/my-app" pin bash
